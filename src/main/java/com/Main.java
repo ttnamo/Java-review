@@ -3,6 +3,8 @@ package com;
 import com.cyber.core.Loops;
 import com.cyber.core.Methods;
 import com.cyber.core.SelectionStetements;
+import com.cyber.oop.Encapsulation.Role;
+import com.cyber.oop.Encapsulation.User;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +29,16 @@ public class Main {
         //====Selection Statement====
         SelectionStetements.demoIfStatement();
         SelectionStetements.demoSwitchCaseStatement();
+
+
+        //===OOP===
+        //====Encapsulation ====
+
+        User user=new User("tig","hab",new Role(1,"admin"));
+        System.out.println(user.getFirstName());
+        System.out.println(user.getLastName());
+        System.out.println(user.getRole().getDescription());
+        System.out.println(user.getRole().getId());
+
     }
 }
