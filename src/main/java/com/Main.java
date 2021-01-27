@@ -1,5 +1,6 @@
 package com;
 
+import com.cyber.core.Loops;
 import com.cyber.core.Methods;
 
 public class Main {
@@ -15,5 +16,11 @@ public class Main {
         System.out.println(methods.methodB());
         methods.methodA();
         Methods.methodC();
+
+
+
+        //======Loops======
+        Loops.demoForEach();
+        Loops.demoForIterator();
     }
 }
