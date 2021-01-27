@@ -2,6 +2,7 @@ package com;
 
 import com.cyber.core.Loops;
 import com.cyber.core.Methods;
+import com.cyber.core.SelectionStetements;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +23,9 @@ public class Main {
         //======Loops======
         Loops.demoForEach();
         Loops.demoForIterator();
+
+        //====Selection Statement====
+        SelectionStetements.demoIfStatement();
+        SelectionStetements.demoSwitchCaseStatement();
     }
 }
